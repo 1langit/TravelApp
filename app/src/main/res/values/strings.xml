@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+
+    <string name="pilih_asal">Pilih stasiun asal</string>
+    <string name="pilih_tujuan">Pilih stasiun tujuan</string>
+    <string name="pilih_kelas">Pilih kelas</string>
+
+    <string name="paket1">Makan dan Minum</string>
+    <string name="paket2">Snack</string>
+    <string name="paket3">Bantal dan selimut</string>
+    <string name="paket4">Hiburan</string>
+    <string name="paket5">Mobil antar jemput</string>
+    <string name="paket6">Safe travel kit</string>
+    <string name="paket7">Asuransi perjalanan</string>
+
+    <string-array name="paket">
+        <item>Makan dan Minum</item>
+        <item>Snack</item>
+        <item>Bantal dan selimut</item>
+        <item>Hiburan</item>
+        <item>Kendaraan antar-jemput</item>
+        <item>Safe travel kit</item>
+        <item>Asuransi perjalanan</item>
+    </string-array>
+
+    <string-array name="stasiun">
+        <item>Stasiun Gambir - Jakarta</item>
+        <item>Stasiun Hall - Bandung</item>
+        <item>Stasiun Tugu - Yogyakarta</item>
+        <item>Stasiun Gubeng - Surabaya</item>
+        <item>Stasiun Pasar Senen - Jakarta</item>
+        <item>Stasiun Balapan - Solo</item>
+        <item>Stasiun Tawang - Semarang</item>
+        <item>Stasiun Purwokerto - Purwokwrto</item>
+        <item>Stasiun Kejaksan - Cirebon</item>
+        <item>Stasiun Madiun- Madiun</item>
+        <item>Stasiun Kotabaru - Malang</item>
+    </string-array>
+
+    <string-array name="nilai_stasiun">
+        <item>70000</item>
+        <item>60000</item>
+        <item>45000</item>
+        <item>60000</item>
+        <item>80000</item>
+        <item>60000</item>
+        <item>70000</item>
+        <item>50000</item>
+        <item>65000</item>
+        <item>75000</item>
+        <item>55000</item>
+    </string-array>
+
+    <string-array name="kelas">
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+        <item>Eksekutif</item>
+        <item>Luxury</item>
+    </string-array>
+
+    <string-array name="nilai_kelas">
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+    </string-array>
+</resources>

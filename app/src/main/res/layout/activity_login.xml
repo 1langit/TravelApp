@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="26dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:src="@drawable/img_baggage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:text="Log in" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/bg_input"
+        android:hint="Email atau username" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/bg_input"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_button"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Log in" />
+
+</LinearLayout>
